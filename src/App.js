@@ -12,7 +12,7 @@ export default function App() {
       level: "3"
     }
   });
-
+// Connects front and back end
   async function getSkills() {
     const response = await fetch(URL);
     const data = await response.json();
